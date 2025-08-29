@@ -25,5 +25,7 @@ public class BankATM {
         BankATM atm = new BankATM();
         atm.depositMoney(500);
         atm.withdrawMoney(200);
+        atm.withdrawMoney(400); // This should trigger an insufficient funds error
+        atm.depositMoney(-50); // This should trigger an invalid deposit amount error
     }
 }
