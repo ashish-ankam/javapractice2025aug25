@@ -2,6 +2,9 @@ package manytoonemapping;
 //import manytoonemapping.Branch;
 
 //Target Object
+// Student class contains Branch class reference
+// i.e Many Students can be associated with one Branch
+//association using setter and getter method
 public class Student {
 
     String studentName;
