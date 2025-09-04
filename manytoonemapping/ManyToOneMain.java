@@ -1,4 +1,6 @@
 package manytoonemapping;
+//One to Many Mapping Example code . where Branch i.e Dependent object is Injecting to Student i.e a Target Object
+//Main Class    
 
 public class ManyToOneMain {
     public static void main(String[] args) {
