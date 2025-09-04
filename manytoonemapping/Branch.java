@@ -1,6 +1,9 @@
 package manytoonemapping;
 
 //Dependent Object
+// Branch class does not contain Student class reference
+// i.e Many Students can be associated with one Branch
+//association using setter and getter method
 public class Branch {
 
 
