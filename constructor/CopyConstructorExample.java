@@ -5,6 +5,8 @@ package constructor;
 // to the new object.
 // This is useful when you want to create a new object with the same state as an existing
 // object without affecting the original object.
+// Note: Java does not provide a default copy constructor like C++. You have to define it explicitly.
+// Here is an example of a copy constructor in Java:
 
 
 
