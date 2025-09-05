@@ -1,4 +1,8 @@
 package constructor;
+// Copy Constructor Example
+// A copy constructor is a special type of constructor that creates a new object as a copy of an existing object.
+
+
 public class CopyConstructorExample {
     int var1;
     int var2;
