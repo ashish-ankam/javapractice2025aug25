@@ -3,6 +3,19 @@ package strings;
 public class StringMethodsExample {
     public static void main(String[] args) {
         // Creating a string
+        //default value is null
+        // String str; // Declaration without initialization
+        // System.out.println(str); // This will cause a compile-time error
+        //why? because local variable must be initialized before use
+        // To fix this, we can initialize the string
+        String str1 = null; // Declaration with initialization to null
+        // System.out.println(str1.length()); // This will cause a NullPointerException
+        //why? because str1 is null and we are trying to call a method on it
+        // To fix this, we can initialize the string to an empty string or a valid string
+        str1 = ""; // Now str1 is an empty string   
+        System.out.println("Length of str1: " + str1.length()); // Output: Length of str1: 0
+        str1 = "Hello"; // Now str1 is a valid string
+        System.out.println("Length of str1: " + str1.length()); // Output:
         String str = "Hello World";
 
         // Convert to uppercase
