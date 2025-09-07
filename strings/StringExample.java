@@ -8,6 +8,7 @@ public class StringExample {
 
        // Creating a string using the new keyword
        //difference between above and below is that above is string literal and below is string object
+       // String literal are stored in string pool and string objects are stored in heap memory
        
         String str4 = new String("String Object example");
 
