@@ -7,6 +7,8 @@ public class StringExample {
         String str2 = "World";
 
        // Creating a string using the new keyword
+       //difference between above and below is that above is string literal and below is string object
+       
         String str4 = new String("String Object example");
 
         // Concatenating strings
