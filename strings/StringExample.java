@@ -6,6 +6,9 @@ public class StringExample {
         String str1 = "Hello";
         String str2 = "World";
 
+       // Creating a string using the new keyword
+        String str4 = new String("String Object example");
+
         // Concatenating strings
         String str3 = str1 + " " + str2;
         System.out.println("Concatenated string: " + str3); // Output: Concatenated string: Hello World
