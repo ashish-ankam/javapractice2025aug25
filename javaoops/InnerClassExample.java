@@ -7,6 +7,8 @@ public class InnerClassExample {
     private String outerField = "Outer field";
 
     // Non-static inner class
+    // Can access outer class members
+    
     class Inner {
         void display() {
             System.out.println("Inner class accessing: " + outerField);
