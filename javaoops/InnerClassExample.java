@@ -8,6 +8,7 @@ public class InnerClassExample {
 
     // Non-static inner class
     // Can access outer class members
+    // Needs an instance of the outer class to be instantiated
     
     class Inner {
         void display() {
