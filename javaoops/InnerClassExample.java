@@ -2,6 +2,7 @@ package javaoops;
 
 // Outer class
 // Demonstrates both static and non-static inner classes
+// and their access to the outer class members
 public class InnerClassExample {
     private String outerField = "Outer field";
 
