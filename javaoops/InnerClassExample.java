@@ -22,6 +22,10 @@ public class InnerClassExample {
     }
 
     // Static inner class
+    // Cannot access non-static members of the outer class directly
+    // Can be instantiated without an instance of the outer class
+    // Useful for grouping classes that are only used in one place  
+    
     static class StaticInner {
         void display() {
             System.out.println("Static inner class method.");
