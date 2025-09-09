@@ -24,7 +24,14 @@ public class InnerClassExample {
     // Static inner class
     // Cannot access non-static members of the outer class directly
     // Can be instantiated without an instance of the outer class
-    // Useful for grouping classes that are only used in one place  
+    // Useful for grouping classes that are only used in one place
+    // Increases encapsulation
+// Can have static members
+// Does not have access to instance variables and methods of the outer class
+    // Can be instantiated without an instance of the outer class
+    // Good for utility or helper classes that don't need access to outer class instance members
+    // Example of grouping related classes together
+    // Improves code organization and readability   
     
     static class StaticInner {
         void display() {
