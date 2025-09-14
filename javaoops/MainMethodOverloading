@@ -1,0 +1,13 @@
+package javaoops;
+public class MainMethodOverloading
+{
+public static void main(String[] args) {
+System.out.println("this is the main Method");
+}
+public static void main(int[] args) {
+System.out.println("this is the int main Method");
+}
+
+
+
+}
