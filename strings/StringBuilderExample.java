@@ -3,6 +3,7 @@ package strings;
 // StringBuilder is used in single-threaded environments
 //it was introduced in JDK 1.5
 // StringBuilder is mutable, meaning it can be modified after creation
+// StringBuilder is less memory-intensive than StringBuffer due to lack of synchronization overhead
 public class StringBuilderExample {
     public static void main(String[] args) {
         // Creating a StringBuilder
