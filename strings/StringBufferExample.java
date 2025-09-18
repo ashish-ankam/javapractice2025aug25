@@ -1,5 +1,10 @@
 package strings;
-
+// StringBuffer is synchronized and thread-safe, but slower than StringBuilder
+// StringBuffer is used in multi-threaded environments
+// StringBuilder is used in single-threaded environments
+//it was introduced in JDK 1.0
+// StringBuffer is mutable, meaning it can be modified after creation
+// StringBuffer is more memory-intensive than StringBuilder due to synchronization overhead
 public class StringBufferExample {
     public static void main(String[] args) {
         // Creating a StringBuffer
