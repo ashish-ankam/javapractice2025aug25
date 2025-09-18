@@ -4,6 +4,9 @@ package strings;
 //it was introduced in JDK 1.5
 // StringBuilder is mutable, meaning it can be modified after creation
 // StringBuilder is less memory-intensive than StringBuffer due to lack of synchronization overhead
+// Example of StringBuilder usage
+// StringBuilder is preferred in scenarios where thread safety is not a concern and performance is critical
+    // Common methods: append(), insert(), replace(), delete(), reverse()
 public class StringBuilderExample {
     public static void main(String[] args) {
         // Creating a StringBuilder
