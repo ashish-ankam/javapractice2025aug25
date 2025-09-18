@@ -1,5 +1,6 @@
 package strings;
 // StringBuilder is not synchronized and not thread-safe, but faster than StringBuffer
+// StringBuilder is used in single-threaded environments
 
 public class StringBuilderExample {
     public static void main(String[] args) {
