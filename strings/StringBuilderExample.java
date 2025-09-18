@@ -2,6 +2,7 @@ package strings;
 // StringBuilder is not synchronized and not thread-safe, but faster than StringBuffer
 // StringBuilder is used in single-threaded environments
 //it was introduced in JDK 1.5
+// StringBuilder is mutable, meaning it can be modified after creation
 public class StringBuilderExample {
     public static void main(String[] args) {
         // Creating a StringBuilder
